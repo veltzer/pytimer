@@ -6,7 +6,7 @@ if not sys.version_info[0] == 3:
 
 setuptools.setup(
     name='pytimer',
-    version='0.0.8',
+    version='0.0.9',
     description='pytimer is an easy to use timer',
     long_description='context based timer to easily time your code',
     url='https://veltzer.github.io/pytimer',
