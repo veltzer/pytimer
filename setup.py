@@ -6,7 +6,7 @@ if not sys.version_info[0] == 3:
 
 setuptools.setup(
     name='pytimer',
-    version='0.0.10',
+    version='0.0.12',
     description='pytimer is an easy to use timer',
     long_description='context based timer to easily time your code',
     url='https://veltzer.github.io/pytimer',
@@ -19,6 +19,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3',
     ],
     keywords='python timing time context manager utility',
-    package_dir={'': 'src'},
-    packages=setuptools.find_packages('src'),
+    packages=setuptools.find_packages(),
 )
