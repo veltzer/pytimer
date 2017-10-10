@@ -1,1 +1,2 @@
-This is to make 'python setup.py sdist' happy...
+# pytimer
+Easy timing module for python
