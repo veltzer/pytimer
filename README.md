@@ -20,3 +20,5 @@
 pytimer is an easy to use timer
 
 project website: <https://veltzer.github.io/pytimer>
+
+

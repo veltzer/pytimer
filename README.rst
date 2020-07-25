@@ -12,5 +12,6 @@ project website: https://veltzer.github.io/pytimer
 
 author: Mark Veltzer
 
-version: 0.0.13
+version: 0.0.14
+
 
