@@ -16,6 +16,8 @@
 ![Downloads](https://pepy.tech/badge/pytimer/month)
 ![Downloads](https://pepy.tech/badge/pytimer/week)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pytimer/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pytimer?targetFile=requirements.txt)
+
 
 
 pytimer is an easy to use timer
