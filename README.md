@@ -19,6 +19,9 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pytimer/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pytimer?targetFile=requirements.txt)
 
 
+Actions
+
+![build](https://github.com/veltzer/pytimer/workflows/build/badge.svg)
 
 pytimer is an easy to use timer
 
