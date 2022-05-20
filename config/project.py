@@ -1,4 +1,4 @@
-short_description = "pytimer is an easy to use timer"
+description_short = "pytimer is an easy to use timer"
 keywords = [
     "python",
     "timing",
