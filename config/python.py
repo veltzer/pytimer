@@ -8,6 +8,7 @@ test_requires = [
     "pytest-cov",
     "flake8",
     "pymakehelper",
+    "mypy",
 ]
 dev_requires = [
     "pyclassifiers",
