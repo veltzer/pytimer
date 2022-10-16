@@ -16,5 +16,4 @@ make_requires = [
     "pyclassifiers",
     "pymakehelper",
     "pydmt",
-    "sphinx",
 ]
