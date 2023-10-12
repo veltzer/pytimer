@@ -1,5 +1,3 @@
-install_requires = [
-]
 test_requires = [
     "pylint",
     "pytest",
