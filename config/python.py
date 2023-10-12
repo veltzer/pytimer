@@ -1,6 +1,4 @@
 install_requires = [
-    "pytconf",
-    "pylogconf",
 ]
 test_requires = [
     "pylint",
