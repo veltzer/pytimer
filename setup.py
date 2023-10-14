@@ -2,7 +2,7 @@ import setuptools
 
 
 def get_readme():
-    with open('README.rst') as f:
+    with open("README.rst") as f:
         return f.read()
 
 
@@ -34,8 +34,6 @@ setuptools.setup(
     license="MIT",
     platforms=[
         "python3",
-    ],
-    install_requires=[
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
