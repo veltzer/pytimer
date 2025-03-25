@@ -1,3 +1,8 @@
+"""
+pytimer.py
+"""
+
+
 import time
 
 
