@@ -1,0 +1,50 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pytimer"
+version = "0.0.16"
+requires-python = ">=3.12"
+authors = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+maintainers = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+description = "pytimer is an easy to use timer"
+readme = "README.md"
+license = "MIT"
+keywords=[
+    "python",
+    "timing",
+    "time",
+    "context",
+    "manager",
+    "utility",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/veltzer/pytimer"
+"Bug Tracker" = "https://github.com/veltzer/pytimer/issues"
+"Documentation" = "https://veltzer.github.io/pytimer"
+"Download" = "https://pypi.org/project/pytimer/"
+"Repository" = "https://github.com/veltzer/pytimer"
+
+
+[tool.ruff]
+line-length = 130
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
