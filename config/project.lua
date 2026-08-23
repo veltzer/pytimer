@@ -8,3 +8,4 @@ KEYWORDS = {
     "manager",
     "utility",
 }
+PYPI = true
