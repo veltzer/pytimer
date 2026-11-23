@@ -22,6 +22,8 @@ class TimerTests(unittest.TestCase):
         timer = Timer(do_print=False)
         with timer:
             pass
+        assert timer.start_time is not None
+        assert timer.end_time is not None
         self.assertGreaterEqual(timer.end_time, timer.start_time)
 
     def test_title_is_stored(self):
