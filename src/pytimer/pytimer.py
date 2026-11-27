@@ -7,7 +7,7 @@ import time
 
 
 class Timer:
-    def __init__(self, do_print=True, do_title=None):
+    def __init__(self, *, do_print=True, do_title=None):
         self.start_time: float | None = None
         self.end_time: float | None = None
         self.print = do_print
